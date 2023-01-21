@@ -1,0 +1,12 @@
+// базові подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// підключення компонентів до сторінки
+@import "./components/header";
+@import "./components/travel_point";
+
+
+@import "./components/media";

@@ -1,0 +1,13 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: var(--container);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
