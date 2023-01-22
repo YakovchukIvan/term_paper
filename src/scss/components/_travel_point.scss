@@ -2,7 +2,7 @@
     display: flex;
     gap: 30px;
     padding: 0 10px 0 10px;
-
+    margin-top: 100px;
 }
 
 .travel_point-left {
@@ -22,7 +22,7 @@
     .travel_point-img3 {
         width: 180px;
         position: absolute;
-        top: 35px;
+        top: 25px;
         right: 3px;
     }
     img{
@@ -32,12 +32,40 @@
 
 .travel_point-right {
     width: 50%;
+    color: #3D3E48;
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 16px;
 }
 
-.travel_point_above {}
+.travel_point_above {
+    line-height: 28px;
+    color: #295943;
+}
 
-.travel_point-title {}
+.travel_point-title {
+    font-size: 28px;
+}
 
-.travel_point-subtitle {}
+.travel_point-subtitle {
+    font-weight: 400;
+    margin-bottom: 35px;
+}
 
-.wrapper_travel-point {}
+.wrapper_travel-point {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    font-weight: 400;
+    div {
+        p:nth-child(1) {
+            font-size: 28px;
+            font-weight: 700;
+            color: #295943;
+            margin: 5px;
+        }
+        p:nth-child(2) {
+            margin: 5px;
+        }
+    }
+}
