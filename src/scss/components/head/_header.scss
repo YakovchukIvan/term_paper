@@ -8,7 +8,9 @@
   flex-direction: column;
   align-items: center;
   color: white;
-
+  .container {
+    padding-top: 20px;
+  }
   a{
     color: white;
     text-decoration: none;
@@ -22,16 +24,14 @@
   text-align: center;
 }
 
-.container {
-  // border: 3px solid red;
-}
+
 
 .nav_header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0 157px 0 ;
+  // margin: 0px 0 157px 0;
   padding: 0 10px 0 10px;
   .logo_link {
       font-weight: 400;
@@ -81,6 +81,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 157px;
 }
 
 .title {

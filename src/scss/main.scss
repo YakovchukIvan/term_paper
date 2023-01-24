@@ -5,11 +5,11 @@
 @import "settings";
 
 // підключення компонентів до сторінки
-@import "./components/header";
-@import "./components/travel_point";
-@import "./components/top_destination";
-@import "./components/testemonial";
-@import "./components/footer";
+@import "./components/head/header";
+@import "./components/home/travel_point";
+@import "./components/home/top_destination";
+@import "./components/home/testemonial";
+@import "./components/head/footer";
 
 
-@import "./components/media";
+@import "./components/head/media";
