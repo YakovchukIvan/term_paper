@@ -5,11 +5,29 @@
 @import "settings";
 
 // підключення компонентів до сторінки
+
+// HOME
 @import "./components/head/header";
 @import "./components/home/travel_point";
 @import "./components/home/top_destination";
 @import "./components/home/testemonial";
 @import "./components/head/footer";
+
+
+// DISCOVER
+@import "./components/discover/header_discover";
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @import "./components/head/media";

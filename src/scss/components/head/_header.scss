@@ -24,8 +24,6 @@
   text-align: center;
 }
 
-
-
 .nav_header {
   display: flex;
   flex-direction: row;
@@ -50,13 +48,12 @@
           font-size: 16px;
           line-height: 28px;
         }
-      
         a:hover {
           font-weight: 700;
         }
     }
-    }
-  
+  }
+}
 
 .block_language{
     display: flex;
@@ -74,7 +71,10 @@
       line-height: 27px;
     }
   }
-}
+
+
+
+
 
 .block_title {
   display: flex;
