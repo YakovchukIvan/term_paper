@@ -6,7 +6,6 @@
     gap: 20px;
     margin: 50px 10px 60px 10px;
     font-size: 16px;
-    font-weight: 400;
     line-height: 28px;
     .text_lorem {
         // border: 2px solid teal;
@@ -29,3 +28,115 @@
         }
     }
 }
+
+.discover_main {
+    max-width: var(--container);
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 20px;
+    // border: 3px solid sandybrown;
+    padding: 0px 10px 0px 10px;
+    font-size: 16px;
+    line-height: 28px;
+    .content {
+        
+        .title-img {
+            max-width: 780px;
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+
+    h3 {
+        font-size: 28px;
+        line-height: 33px;
+        color: #3D3E48;
+        margin-bottom: 0;
+    }
+    h4 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+        line-height: 29px;
+        color: #3D3E48;
+        margin-top: 5px;
+    }
+    }
+    
+    
+    
+    .subtitle-img {
+        // border: 3px solid rgb(92, 49, 11);
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        div{
+            max-width: 380px;
+            img {
+                width: 100%;
+            }
+        }
+        
+    }
+
+
+
+
+    .discover_sidebar {
+        // border: 3px solid rgb(229, 244, 96);
+        margin-right: 20px;
+        .sidebar-text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                // border: 2px solid slategrey;
+                font-size: 20px;
+                line-height: 45px;
+                color: #3D3E48;
+            }
+            a {
+                cursor: pointer;
+                font-size: 20px;
+                line-height: 45px;
+                color: #43B97F;
+                text-decoration: none;
+            }
+            a:hover{
+                opacity: 0.8;
+                transition: 0.3s;
+            }
+        }
+        .sidebar-item {
+            // border: 3px solid seagreen;
+            background-image: url(../img/picture/discover/discover_sidebar.png);
+            // background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            margin-bottom: 20px;
+            padding: 30px 10px;
+            h3{
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 35px;
+                margin: 0;
+            }
+            h4{
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 22px;
+                margin: 0;
+            }
+            a{
+                color: white;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 29px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+

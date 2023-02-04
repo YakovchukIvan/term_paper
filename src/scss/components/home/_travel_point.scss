@@ -10,28 +10,40 @@
     align-items: flex-end;
     min-width: 50%;
     position: relative;
+
     .travel_point-img1 {
         width: 274px;
     }
+
     .travel_point-img2 {
         width: 200px;
         position: absolute;
         bottom: -10px;
         right: 115px;
     }
+
     .travel_point-img3 {
         width: 180px;
         position: absolute;
         top: 25px;
         right: 3px;
     }
-    img{
+
+    img {
         width: 100%;
     }
 }
 
 .travel_point-right {
     width: 50%;
+    color: #3D3E48;
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.travel_point-right {
+    // width: 50%;
     color: #3D3E48;
     font-weight: 700;
     line-height: 28px;
