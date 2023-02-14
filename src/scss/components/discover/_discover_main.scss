@@ -110,7 +110,6 @@
             }
         }
         .sidebar-item {
-            // border: 3px solid seagreen;
             background-image: url(../img/picture/discover/discover_sidebar.png);
             // background-repeat: no-repeat;
             background-size: cover;
@@ -124,17 +123,30 @@
                 margin: 0;
             }
             h4{
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 700;
                 line-height: 22px;
                 margin: 0;
+                margin-top: 10px;
             }
-            a{
+            button {
+                background-color: #43B97F;
+                border: none;
+                border-radius: 8px;
+                width: 126px;
+                height: 49px;
                 color: white;
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 29px;
                 text-decoration: none;
+                padding: 10px 20px;
+                margin-top: 40px;
+                cursor: pointer;
+            }
+            button:active {
+                opacity: 0.8;
+                transition: 0.3s;
             }
         }
     }
