@@ -42,6 +42,9 @@
         opacity: 0.8;
         transition: 0.3s;
     }
+    button:hover {
+        opacity: 0.8;
+    }
 }
 
 
@@ -80,6 +83,14 @@
             color: white;
             padding: 5px 20px;
             margin-top: 25px;
+            cursor: pointer;
+        }
+        button:active {
+            background-color: #43B97F;
+            transition: 0.1s;
+        }
+        button:hover {
+            opacity: 0.8;
         }
     }
     .sidebar-item:nth-child(1) {
@@ -97,3 +108,185 @@
     }
 }
 
+.service_facilities {
+    background-image: url(../img/picture/service/facilities-bg.png);
+    max-width: 1280px;
+    // height: 550px;
+    display: flex;
+    gap: 20px;
+    margin: 100px 0;
+    padding: 87px 50px;
+    .facilities_block1 {
+        color: #fff;
+        width: 50%;
+        h2{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 58px;
+            margin: 0;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 20px 0;
+        }
+        button {
+            background-color: #43B97F;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #309263;
+            transition: 0.1s;
+        }
+        button:active {
+            background-color: #43B97F;
+            transition: 0.1s;
+        }
+        
+    }
+
+    .facilities_block2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 50%;
+        div {
+            background-color: #fff;
+            text-align: center;
+            padding: 30px 30px;
+            color: #3D3E48;
+            border-radius: 15px;
+            p:nth-child(2){
+                font-size: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+                font-weight: 700;
+                line-height: 48px;
+                margin: 0;
+                
+            }
+            p:nth-child(3) {
+                font-size: clamp(0.5rem, 0.333rem + 0.83vw, 1rem);
+                font-weight: 500;
+                line-height: 28px;
+                margin: 0;
+            }
+        }
+        div:nth-child(3) {
+            img {
+                margin-bottom: 4px;
+            }
+        }
+    }
+}
+
+.service_our-service {
+    color: #3D3E48;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    h2 {
+        margin: 10px 0 36px 0;
+    }
+    h3 {
+        font-weight: 400;
+        margin: 0;
+    }
+    .our_service-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 90px;
+        text-align: left;
+        padding-left: 90px;
+        position: relative;
+
+        div{   
+            h3::before{
+                content: "";
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 0px;
+                left: -68px;
+                width: 48px;
+                height: 64px;
+            }
+            h3 {
+                font-size: 28px;
+                font-weight: 700;
+                margin: 0;
+            }
+            p {
+                font-weight: 400;
+                line-height: 28px;
+            }
+        }
+        
+        .our_service-item1 {
+            position: relative;
+            h3::before{
+                background-image: url(../img/svg/service/our_service-icon1.svg);
+            }
+        }
+
+        .our_service-item2 {
+            position: relative;
+            h3::before{
+                top: -1px;
+                background-image: url(../img/svg/service/our_service-icon2.svg);
+            }
+        }
+
+        .our_service-item3 {
+            position: relative;
+            h3::before{
+                background-image: url(../img/svg/service/our_service-icon3.svg);
+            }
+        }
+
+        .our_service-item4 {
+            position: relative;
+            h3::before{
+                content: "";
+                background-image: url(../img/svg/service/our_service-icon4.svg);
+            }
+        }
+
+        .our_service-item5 {
+            position: relative;
+            h3::before{
+                content: "";
+                background-image: url(../img/svg/service/our_service-icon5.svg);
+            }
+        }
+
+        .our_service-item6 {
+            position: relative;
+            h3::before{
+                background-image: url(../img/svg/service/our_service-icon6.svg);
+            }
+        }
+
+        button {
+            background-color: #43B97F;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        button:hover {
+            background-color: #309263;
+            transition: 0.1s;
+        }
+
+        button:active {
+            background-color: #43B97F;
+            transition: 0.1s;
+        }
+    }
+}

@@ -38,6 +38,13 @@
     padding: 0px 10px 0px 10px;
     font-size: 16px;
     line-height: 28px;
+    button:hover {
+        opacity: 0.8;
+    }
+    button:hover {
+        opacity: 1;
+        transition: 0.1s;
+    }
     .content {
         
         .title-img {
