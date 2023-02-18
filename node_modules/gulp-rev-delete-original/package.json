@@ -1,0 +1,29 @@
+{
+  "name": "gulp-rev-delete-original",
+  "version": "0.2.3",
+  "description": "Delete the original file rewritten by gulp-rev.",
+  "keywords": [
+    "gulpplugin",
+    "rev",
+    "rev-del",
+    "gulp-rev",
+    "gulp-rev-all",
+    "gulp-rev-napkin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-health-funds/gulp-rev-delete-original.git"
+  },
+  "dependencies": {
+    "rimraf": "^2.3.4",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "vinyl": "^1.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT"
+}

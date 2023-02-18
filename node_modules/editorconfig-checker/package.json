@@ -1,0 +1,51 @@
+{
+  "name": "editorconfig-checker",
+  "version": "4.0.2",
+  "description": "A tool to verify that your files are in harmony with your .editorconfig",
+  "main": "src/index.js",
+  "bin": {
+    "editorconfig-checker": "./dist/index.js",
+    "ec": "./dist/index.js"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/**/**/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/editorconfig-checker/editorconfig-checker.javascript.git"
+  },
+  "keywords": [
+    "lint",
+    "linting",
+    "clean-code"
+  ],
+  "author": "Max Strübing <mxstrbng@gmail.com> (https://github.com/mstruebing) (https://twitter.com/mxstrbng)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/editorconfig-checker/editorconfig-checker.javascript/issues"
+  },
+  "homepage": "https://github.com/editorconfig-checker/editorconfig-checker.javascript#readme",
+  "xo": {
+    "envs": [
+      "jest"
+    ]
+  },
+  "scripts": {
+    "prepare": "make build"
+  },
+  "dependencies": {
+    "https-proxy-agent": "^5.0.0",
+    "node-fetch": "^2.6.0",
+    "tar": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "@types/node-fetch": "^2.5.5",
+    "prettier": "^2.0.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.0.2"
+  }
+}

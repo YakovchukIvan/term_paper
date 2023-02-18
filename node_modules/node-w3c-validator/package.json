@@ -1,0 +1,61 @@
+{
+  "name": "node-w3c-validator",
+  "version": "2.0.2",
+  "description": "Wrapper for The Nu Html Checker (v.Nu)",
+  "main": "./lib/validator.js",
+  "scripts": {
+    "test": "happiness --verbose | snazzy",
+    "cli-html": "node ./bin/cmd.js -i ./tests/html/valid-examples/*.html -f html -o ./results/cli-api-report.html",
+    "cli-lint": "node ./bin/cmd.js -i ./tests/html/valid-examples/*.html -f lint",
+    "nodejs-api": "node ./tests/demo.js",
+    "code-style": "happiness --verbose --fix | snazzy"
+  },
+  "bin": {
+    "node-w3c-validator": "bin/cmd.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dutchenkoOleg/node-w3c-validator.git"
+  },
+  "author": "Oleg Dutchenko <dutchenko.o.dev@gmail.com>",
+  "contributors": [
+    "Michael Kühnel (https://github.com/mischah)",
+    "Debjeet Biswas (https://github.com/detj)",
+    "Yunus Gaziev (https://github.com/yunusga)",
+    "WezomDev (https://github.com/WezomDev)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dutchenkoOleg/node-w3c-validator/issues"
+  },
+  "homepage": "https://github.com/dutchenkoOleg/node-w3c-validator#readme",
+  "keywords": [
+    "html",
+    "html5",
+    "vnu",
+    "w3c-validator",
+    "nodejs",
+    "cli",
+    "reporting",
+    "checker"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "eslint-formatter-pretty": "^4.0.0",
+    "fileset": "^2.0.3",
+    "lodash": ">=4.17.20",
+    "mkdirp": "^1.0.4",
+    "ora": "^5.1.0",
+    "vnu-jar": "^21.10.12"
+  },
+  "devDependencies": {
+    "eslint": ">=7.14.0",
+    "happiness": "^10.0.2",
+    "snazzy": "^9.0.0"
+  }
+}
