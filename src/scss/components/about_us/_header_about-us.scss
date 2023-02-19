@@ -1,0 +1,41 @@
+.header_about-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        color: #3D3E48;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .logo_link {
+        color: #295943;
+    }
+
+    .link_about-us {
+        font-weight: 700;
+        color: #43B97F;
+    }
+
+    .bg_about-us {
+        background-image: url(../img/picture/about_us/about-bg.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        p {
+            width: var(--container);
+            font-weight: 700;
+            font-size: 33.18px;
+            line-height: 40px;
+            color: #fff;
+            margin: 20px 10px;
+        }
+    }
+}
